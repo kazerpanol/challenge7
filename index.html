@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <header>
+      <img src="images/logo-top.svg" alt="logo" class="logo-top">
+      <a href="#"><img src="images/icon-hamburger.svg" alt="logo" class="hamburger"></a>
+      <nav>
+        <div class="arrow-left"></div>
+        <ul class="flex">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><button class="highlight">Contact</button></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <section class="hero">
+        <picture>
+          <source media="(min-width:800px)" srcset="images/desktop/image-header.jpg">
+          <img src="images/mobile/image-header.jpg" class="bg-1" alt="orange">
+        </picture>
+        <div class="wrapper1">
+          <h1>We are Creatives</h1>
+          <img src="images/icon-arrow-down.svg" class="arrowdown" data-aos="fade-down" alt="arrowdown">
+        </div>
+      </section>
+      <section class="egg">
+        <picture>
+          <source media="(min-width:800px)" srcset="images/desktop/image-transform.jpg">
+          <img src="images/mobile/image-transform.jpg" class="bg-1" alt="egg">
+        </picture>
+      </section>
+      <section class="transform" data-aos="fade-right">
+        <h2 class="darkBlue">Transform your brand</h2>
+        <p>We are a full-service creative agency specializing in helping brands grow fast.
+          Engage your clients through compelling visuals that do most of the marketing for you.
+        </p>
+        <a href="#" class="learn learn1">Learn more</a>
+      </section>
+      <section class="shake">
+        <picture>
+          <source media="(min-width:800px)" srcset="images/desktop/image-stand-out.jpg">
+          <img src="images/mobile/image-stand-out.jpg" class="bg-1" alt="shake">
+        </picture>
+      </section>
+      <section class="standout" data-aos="fade-right">
+        <h2 class="darkBlue">Stand out to the right audience</h2>
+        <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.
+        </p>
+        <a class="learn learn2">Learn more</a>
+      </section>
+      <section class="graphicdesign">
+        <picture>
+          <source media="(min-width:800px)" srcset="images/desktop/image-graphic-design.jpg">
+          <img src="images/mobile/image-graphic-design.jpg" class="bg-1 cherry" alt="cherry">
+        </picture>
+        <div class="text-bottom" data-aos="fade-down">
+          <h2> Graphic design</h2>
+          <p>
+            Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+          </p>
+        </div>
+      </section>
+      <section class="photography">
+        <picture>
+          <source media="(min-width:800px)" srcset="images/desktop/image-photography.jpg">
+          <img src="images/mobile/image-photography.jpg" class="bg-1 orange" alt="orange">
+        </picture>
+        <div class="text-bottom" data-aos="fade-down">
+          <h2> Photography</h2>
+          <p>
+            Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+          </p>
+        </div>
+      </section>
+      <h2 class="client">CLIENT TESTIMONIALS</h2>
+      <div class="client-flex">
+        <section class="testimonials " data-aos="zoom-in">
+          <img src="images/image-emily.jpg" class="avatar" alt="image-emily">
+          <p class="darken">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+          </p>
+          <span class="name"><b>Emily R.</b></span>
+          <p class="lighten">Marketing Director</p>
+        </section>
+        <section class="testimonials " data-aos="zoom-in">
+          <img src="images/image-thomas.jpg" class="avatar" alt="image-thomas">
+          <p class="darken">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+          </p>
+          <span class="name"><b>Thomas S.</b></span>
+          <p class="lighten">Chief Operating Officer </p>
+        </section>
+        <section class="testimonials" data-aos="zoom-in">
+          <img src="images/image-jennie.jpg" class="avatar" alt="image-jennie">
+          <p class="darken">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+          </p>
+          <span class="name"><b>Jennie F.</b></span>
+          <p class="lighten">Business Owner</p>
+        </section>
+      </div>
+      <div class="wrapper" data-aos="fade-up">
+        <picture>
+          <source media="(min-width:800px)" srcset="images/desktop/image-gallery-milkbottles.jpg">
+          <img src="images/mobile/image-gallery-milkbottles.jpg" class="photo" alt="image-of-milkbottle">
+        </picture>
+        <picture>
+          <source media="(min-width:800px)" srcset="images/desktop/image-gallery-orange.jpg">
+          <img src="images/mobile/image-gallery-orange.jpg" class="photo" alt="image-of-orange">
+        </picture>
+        <picture>
+          <source media="(min-width:800px)" srcset="images/desktop/image-gallery-cone.jpg">
+          <img src="images/mobile/image-gallery-cone.jpg" class="photo" alt="image-of-cone">
+        </picture>
+        <picture>
+          <source media="(min-width:800px)" srcset="images/desktop/image-gallery-sugarcubes.jpg" class="photo">
+          <img src="images/mobile/image-gallery-sugar-cubes.jpg" class="photo" alt="image-of-cubes">
+        </picture>
+      </div>
+    </div>
+    <footer>
+      <img src="images/logo.svg" alt="logo" class="footer-logo">
+      <ul class="nav-footer">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+      </ul>
+      <ul class="contacts-footer">
+        <li><a href="#"><img src="images/icon-facebook.svg" alt="icon-facebook"></a></li>
+        <li><a href="#"><img src="images/icon-instagram.svg" alt="icon-instagram"></a></li>
+        <li><a href="#"><img src="images/icon-twitter.svg" alt="icon-twitter"></a></li>
+        <li><a href="#"><img src="images/icon-pinterest.svg" alt="icon-pinterest"></a></li>
+      </ul>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io/profile/kazerpanol" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Kazer Panol</a>.
+      </div>
+    </footer>
+  </body>
+  <script>
+    let ham = document.querySelector('.hamburger');
+    let nav = document.querySelector('nav');
+    ham.addEventListener("click", () => {
+      nav.classList.toggle("show");
+    })
+  </script>
+</html>
